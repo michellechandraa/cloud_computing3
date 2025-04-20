@@ -8,3 +8,5 @@ Route::get('/', function () {
 
 Route::view('/', 'index');
 Route::view('/movie', 'show');
+Route::view('/login','login');
+Route::view('/register','register');
